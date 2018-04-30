@@ -1,6 +1,6 @@
 require 'pry'
 def count_item(cart, item)
-    cart.select do |key, value|
+    cart.select do |value|
         binding.pry
     end.size
 end
