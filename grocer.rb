@@ -1,7 +1,7 @@
 require 'pry'
 def count_item(cart, item)
     cart.select do |value|
-        key.keys.first == item
+        value.keys.first == item
     end.size
 end
 
