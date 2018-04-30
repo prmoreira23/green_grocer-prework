@@ -1,4 +1,8 @@
 require 'pry'
+def count_item(cart, item)
+    
+end
+
 def consolidate_cart(cart)
   # code here
   binding.pry
