@@ -8,8 +8,10 @@ end
 
 def consolidate_cart(cart)
   # code here
-  binding.pry
-  count_item(cart, "ALMONDS")
+  new_cart = {}
+  cart.each do |item|
+      
+  end
 end
 
 def apply_coupons(cart, coupons)
