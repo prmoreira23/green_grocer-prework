@@ -12,8 +12,8 @@ def consolidate_cart(cart)
   cart.each do |item|
       item.each do |key, value|
           new_cart[key] = {
-              price: nil,
-              clearance: nil,
+              price: value[:price],
+              clearance: value[:clearance],
               count: count_item(cart, key)
           }
       end
