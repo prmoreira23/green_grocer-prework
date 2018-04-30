@@ -1,6 +1,8 @@
 require 'pry'
 def count_item(cart, item)
-    
+    cart.select do |key, value|
+        binding.pry
+    end.size
 end
 
 def consolidate_cart(cart)
