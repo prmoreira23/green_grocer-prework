@@ -7,6 +7,7 @@ end
 
 def consolidate_cart(cart)
   # code here
+  binding.pry
   count_item(cart, "ALMONDS")
 end
 
